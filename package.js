@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'arkham:comments-ui',
+  name: 'arkham:comments-ui-appgility',
   summary: 'Simple templates for disqus-like comment functionality',
-  version: '1.1.1',
-  git: 'https://github.com/ARKHAM-Enterprises/meteor-comments-ui.git'
+  version: '1.1.2',
+  git: 'https://github.com/apdjustino/appgility-comments-ui.git'
 });
 
 Npm.depends({
