@@ -7,7 +7,7 @@
       <div class="field">
                   <textarea
                           placeholder="{{ take key='placeholder-textarea' default='Join the discussion'}}"
-                          class="{{#if reply}}create-reply{{else}}create-comment{{/if}}"></textarea>
+                          class="{{#if reply}}create-reply{{else}}create-comment{{/if}} materialize-textarea"></textarea>
       </div>
       {{#if showAnonymousInput}}
         <div class="two fields">
@@ -30,7 +30,7 @@
       <div class="form-group">
                   <textarea
                           placeholder="{{ take key='placeholder-textarea' default='Join the discussion'}}"
-                          class="form-control {{#if reply}}create-reply{{else}}create-comment{{/if}}" rows="3"></textarea>
+                          class="form-control {{#if reply}}create-reply{{else}}create-comment{{/if}} materialize-textarea" rows="3"></textarea>
       </div>
       {{#if showAnonymousInput}}
         <div class="form-group">
@@ -54,7 +54,7 @@
         <label class="item item-input">
                       <textarea
                               placeholder="{{ take key='placeholder-textarea' default='Join the discussion'}}"
-                              class="form-control {{#if reply}}create-reply{{else}}create-comment{{/if}}" rows="3"></textarea>
+                              class="form-control {{#if reply}}create-reply{{else}}create-comment{{/if}} materialize-textarea" rows="3"></textarea>
         </label>
         {{#if showAnonymousInput}}
           <label class="item item-input">
